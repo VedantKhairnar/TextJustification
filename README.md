@@ -14,7 +14,7 @@ Just
 problem 
 
 
-## * * Developer Details:
+* * Developer Details:
 
 Vedant Khairnar
 
