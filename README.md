@@ -17,6 +17,7 @@ problem
 ## Developer Details:
 
 Vedant Khairnar
+  Cyber Security and Machine Learning Enthusiast
 
 Website: https://vedantkhairnar.ml/
 
