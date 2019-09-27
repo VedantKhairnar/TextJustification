@@ -1,4 +1,4 @@
-# TextJustification
+# Text Justification Problem
 # Output:
 
 Text Justification Problem Implementation:
