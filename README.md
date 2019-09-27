@@ -14,9 +14,10 @@ Just
 problem 
 
 
-## Developer Details:
+## * * Developer Details:
 
 Vedant Khairnar
+
   Cyber Security and Machine Learning Enthusiast
 
 Website: https://vedantkhairnar.ml/
