@@ -14,9 +14,9 @@ Just
 problem 
 
 
-* * Developer Details:
-
-Vedant Khairnar
+* * 
+*** Developer Details: ***
+ Vedant Khairnar
 
   Cyber Security and Machine Learning Enthusiast
 
