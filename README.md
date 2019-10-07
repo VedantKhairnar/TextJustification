@@ -1,15 +1,19 @@
 # Text Justification Problem
 
-"""
-Problem Definition:     Read Text Justification problem from internet resource. Write a python code using
+
+## Problem Definition:
+
+Read Text Justification problem from internet resource. Write a python code using
                         dynamic programming to implement text justification problem.
-Logic:
-        a.First create list, with each index having one space separated word and less than maxWidth.
-        b.Then Iterate over this new list to add more space by calculating quotient and remainder to add remaining spaces.
-        a.Format the data into nested list format such that each element is a list having words in that line
-        b.and simultaneously update the white space distribution
-"""
+## Logic:
+
+        1.a.First create list, with each index having one space separated word and less than maxWidth.
+        1.b.Then Iterate over this new list to add more space by calculating quotient and remainder to add remaining spaces.
+        2.a.Format the data into nested list format such that each element is a list having words in that line
+        2.b.and simultaneously update the white space distribution
+
 ```
+import time
 def fullJustify(words, maxWidth):
     res, cur, num_of_letters = [], [], 0
     for w in words:
@@ -37,6 +41,8 @@ if __name__ == '__main__':
     l = fullJustify(s.split(), mWidth)
     for i in l:
         print(i + "\n")
+    time.sleep(10)
+
 ```
 # Output:
 
