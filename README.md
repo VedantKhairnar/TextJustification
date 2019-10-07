@@ -63,9 +63,9 @@ problem
 
 
 * * 
-## ***Developer Details:***
+# ***Developer Details:***
 
- Vedant Khairnar
+## Vedant Khairnar
 
   Cyber Security and Machine Learning Enthusiast
 
