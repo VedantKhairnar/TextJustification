@@ -12,6 +12,8 @@ Read Text Justification problem from internet resource. Write a python code usin
         2.a.Format the data into nested list format such that each element is a list having words in that line
         2.b.and simultaneously update the white space distribution
 
+## Code
+
 ```
 import time
 def fullJustify(words, maxWidth):
@@ -44,6 +46,7 @@ if __name__ == '__main__':
     time.sleep(10)
 
 ```
+
 # Output:
 
 Text Justification Problem Implementation:
@@ -60,7 +63,7 @@ problem
 
 
 * * 
-***Developer Details:***
+## ***Developer Details:***
 
  Vedant Khairnar
 
