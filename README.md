@@ -3,8 +3,7 @@
 
 ## Problem Definition:
 
-Read Text Justification problem from internet resource. Write a python code using
-                        dynamic programming to implement text justification problem.
+Read Text Justification problem from internet resource. Write a python code to implement text justification problem.
 ## Logic:
 
         1.a.First create list, with each index having one space separated word and less than maxWidth.
