@@ -1,6 +1,5 @@
 """
-Problem Definition:     Read Text Justification problem from internet resource. Write a python code using
-                        dynamic programming to implement text justification problem.
+Problem Definition:   Read Text Justification problem from internet resource. Write a python code to implement text justification problem.
 
 """
 
