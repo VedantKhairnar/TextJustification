@@ -2,12 +2,6 @@
 Problem Definition:     Read Text Justification problem from internet resource. Write a python code using
                         dynamic programming to implement text justification problem.
 
-Logic:
-        a.First create list, with each index having one space separated word and less than maxWidth.
-        b.Then Iterate over this new list to add more space by calculating quotient and remainder to add remaining spaces.
-
-        a.Format the data into nested list format such that each element is a list having words in that line
-        b.and simultaneously update the white space distribution
 """
 
 import time
@@ -39,18 +33,4 @@ if __name__ == '__main__':
     for i in l:
         print(i + "\n")
     time.sleep(10)
-"""
 
-    flag = True
-    for i in s.split():
-        if len(i) > mWidth:
-            flag = False
-            print("Increase the maxWidth")
-            break
-
-    if flag == True:
-        l = fullJustify(s.split(), mWidth)
-        for i in l:
-            print(i + "\n")
-
-"""
