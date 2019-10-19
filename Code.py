@@ -34,7 +34,7 @@ if __name__ == '__main__':
     print("Text Justification Problem Implementation:\n")
     # Test Case 1
     s = "Sample text for Text Just problem"
-    mWidth = 8
+    mWidth = int(input())
 
     l = fullJustify(s.split(), mWidth)
     for i in l:
