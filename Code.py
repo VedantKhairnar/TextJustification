@@ -10,14 +10,15 @@ Logic:
         b.and simultaneously update the white space distribution
 """
 
-
+import time
 def fullJustify(words, maxWidth):
     res, cur, num_of_letters = [], [], 0
-
     for w in words:
+        # Check if the word to be checked crosses the max width or not
         if len(w) > maxWidth:
             print("Increase the maxWidth")
             return ""
+        # Check if the word can be added in the ongoing line or not
         if num_of_letters + len(w) + len(cur) > maxWidth:
             for i in range(maxWidth - num_of_letters):
                 cur[i % (len(cur) - 1 or 1)] += ' '
@@ -25,25 +26,19 @@ def fullJustify(words, maxWidth):
             cur, num_of_letters = [], 0
         cur += [w]
         num_of_letters += len(w)
-    #  print(cur,num_of_letters,w)
-    # print(res)
     return res + [' '.join(cur).ljust(maxWidth)]
 
 
 if __name__ == '__main__':
     print("Text Justification Problem Implementation:\n")
     # Test Case 1
-    s = "Sample text for Text Just problem"
-    mWidth = int(input())
+    s = input("Enter the text to be justified\n")#"Sample text for Text Just problem"
+    mWidth = int(input("Enter the max width.\n"))
 
     l = fullJustify(s.split(), mWidth)
     for i in l:
         print(i + "\n")
-
-    # Test Case 2
-    # l=fullJustify("".split(),40)
-    # s= "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.".split()
-
+    time.sleep(10)
 """
 
     flag = True
